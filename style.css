@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: sans-serif;
+}
+
+/* header elements */
+header {
+    background-color: white;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+header img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 39px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+/* main elements */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.container .top {
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 10px 10px 0 0 ;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.container .tasks {
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 15px;
+    padding-left: 30px;
+}
+
+.button-filled {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 600;
+    border: solid 1px deepskyblue;
+    font-weight: 700;
+}
+
+.button-outline {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: solid 1px gray;
+    font-weight: 700;
+}
+
+.container .tasks ul {
+    list-style: none;
+}
+
+.tasks > ul > li {
+    margin: 20px 0;
+}
+
+.check {
+    border: solid 2px green;
+    color: green;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 7px;
+}
+
+.cross {
+    border: solid 2px red;
+    color: red;
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 7px;
+}
+
+.editorial button {
+    background-color: deepskyblue;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.q1 button {
+    background-color: blueviolet;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.recruiting button{
+    background-color: green;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.mobile button {
+    background-color: orange;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.website button {
+    background-color: deeppink;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.sales button {
+    background-color: olivedrab;
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    border: none;
+}
+
+.text  {
+    font-weight: 500;
+}
+
+h3 {
+    padding-bottom: 7px;
+}
+
+li {
+    padding-bottom: 7px;
+}
